@@ -54,7 +54,7 @@
 
   transition: transform 0.3s;
   will-change: transform;
-  background-color: #fff;
+  background-color: #f8efef;
   display: flex;
   flex-direction: column;
   -webkit-transform: translate3d(103%, 0, 0);

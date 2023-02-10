@@ -29,8 +29,8 @@ export const useNavConfig = () => {
       { label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard' },
       {
         label: (
-          <a href="https://docs.li.fi/" target="_blank" rel="nofollow noreferrer">
-            Developers
+          <a href="https:yutumoon.com" target="_blank" rel="nofollow noreferrer">
+            Official Website
           </a>
         ),
         key: 'dev-list',
@@ -45,73 +45,17 @@ export const useNavConfig = () => {
         disabled: false,
         children: [
           {
-            label: 'Showcases',
-            key: 'lifi-showcase-submenu',
-            children: [
-              {
-                key: '/showcase/ukraine',
-                label: (
-                  <>
-                    <span className="ukraine-flag">&#127482;&#127462;</span>
-                    <Link to="/showcase/ukraine">Help Ukraine!</Link>
-                  </>
-                ),
-              },
-              {
-                type: 'group',
-                label: 'Showcases',
-                key: '/showcase',
-                children: [
-                  {
-                    key: '/showcase/etherspot-klima',
-                    label: <Link to="/showcase/etherspot-klima">Cross-Chain Klima Staking</Link>,
-                  },
-                  {
-                    key: '/showcase/carbon-offset',
-                    label: <Link to="/showcase/carbon-offset">Cross-Chain Carbon Offsetting</Link>,
-                  },
-                  VITE_ENABLE_OFFSET_CARBON_SHOWCASE
-                    ? {
-                        key: '/showcase/carbon-offset-v2',
-                        label: (
-                          <Link to="/showcase/carbon-offset-v2">
-                            Cross-Chain Carbon Offsetting V2
-                          </Link>
-                        ),
-                      }
-                    : null,
+            label: (
+              <a href="http://yutumoon.com/raodmap/" target="_blank" rel="nofollow noreferrer">
+                RoadMap
+              </a>
+            ),
+            key: 'roadmap',
+          },
 
-                  ENABLE_KLIMA_STAKE_SHOWCASE
-                    ? {
-                        key: '/showcase/klima-stake-v2',
-                        label: (
-                          <Link to="/showcase/klima-stake-v2">Cross-Chain Klima Staking V2</Link>
-                        ),
-                      }
-                    : null,
-                ],
-              },
-            ],
-          },
           {
             label: (
-              <a href="https://blog.li.fi/" target="_blank" rel="nofollow noreferrer">
-                Blog
-              </a>
-            ),
-            key: 'blog',
-          },
-          {
-            label: (
-              <a href="https://docs.li.fi/" target="_blank" rel="nofollow noreferrer">
-                Explore Docs
-              </a>
-            ),
-            key: 'docs',
-          },
-          {
-            label: (
-              <a href="https://li.fi/" target="_blank" rel="nofollow noreferrer">
+              <a href="http://yutumoon.com/about/" target="_blank" rel="nofollow noreferrer">
                 About
               </a>
             ),
@@ -119,52 +63,19 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://github.com/lifinance" target="_blank" rel="nofollow noreferrer">
-                Github
+              <a href="https://t.me/Yutu188" target="_blank" rel="nofollow noreferrer">
+                Btok
               </a>
             ),
-            key: 'github',
+            key: 'Btok',
           },
           {
             label: (
-              <a href="https://twitter.com/lifiprotocol" target="_blank" rel="nofollow noreferrer">
+              <a href="https://twitter.com/duanhaocheng1" target="_blank" rel="nofollow noreferrer">
                 Twitter
               </a>
             ),
             key: 'twitter',
-          },
-          {
-            label: 'Legals',
-            key: 'legals-submenu',
-            children: [
-              {
-                label: (
-                  <a href="https://li.fi/legal/privacy-policy/" target={'_blank'} rel="noreferrer">
-                    Privacy Policy
-                  </a>
-                ),
-                key: 'privacy',
-              },
-              {
-                label: (
-                  <a href="https://li.fi/legal/imprint/" target={'_blank'} rel="noreferrer">
-                    Imprint
-                  </a>
-                ),
-                key: 'imprint',
-              },
-              {
-                label: (
-                  <a
-                    href="https://li.fi/legal/terms-and-conditions/"
-                    target={'_blank'}
-                    rel="noreferrer">
-                    Terms & Conditions
-                  </a>
-                ),
-                key: 'termsAndConditions',
-              },
-            ],
           },
         ],
       },

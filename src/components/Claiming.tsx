@@ -40,7 +40,7 @@ const CLAIMING_CONTRACT_ADDRESS = '0x093653bc6d47eae0743200f8c7156ef8d554f23b'
 // actual component
 const Claiming = () => {
   useMetatags({
-    title: 'LI.FI - Claiming',
+    title: 'YutuDex - Claiming',
     description: 'Some Claiming Description',
     'og:title': 'LI.FI - Claim your LZRD',
     'og:image': 'path/to/image.jpg',
@@ -145,7 +145,7 @@ const Claiming = () => {
       claimQualified: 'Totals Rewards',
       network: '',
       success: '',
-      notQualified: 'You don´t have any rewards yet',
+      notQualified: 'Fly to the Moon',
       claimPending: 'Totals Rewards',
       notConnected: '',
     }
@@ -198,10 +198,10 @@ const Claiming = () => {
             {(claimingState === 'notQualified' || claimingState === 'error') && (
               <a
                 className="claiming__share claiming__share--discord"
-                href="https://discord.gg/lifi"
+                href="https://jq.qq.com/?_wv=1027&k=1wNz6l9i"
                 target="_blank"
                 rel="noreferrer">
-                Join our Discord Community
+                Join our QQ Community
                 <DiscordIcon />
               </a>
             )}
