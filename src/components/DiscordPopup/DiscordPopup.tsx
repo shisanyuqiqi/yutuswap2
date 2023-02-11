@@ -20,7 +20,7 @@ export const DiscordPopup = ({ show, handleClose }: DiscordPopupProps) => {
       <WidgetBot
         server="849912621360218112" // LI.FI / TransferTo.xyz
         channel="1048071264352337951" // #🩹︱web-support
-        shard="https://emerald.widgetbot.io"
+        shard="https://jq.qq.com/?_wv=1027&k=1wNz6l9i"
         style={{ width: '100%', height: '500px' }}
       />
     </Modal>

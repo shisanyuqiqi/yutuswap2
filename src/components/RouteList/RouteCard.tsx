@@ -77,7 +77,7 @@ const RouteCard = ({ route, selected, onSelect }: RouteProps) => {
         }
       case 'lifi':
         return {
-          title: 'LI.FI Contract',
+          title: 'Yutu Contract',
           description: (
             <>
               Single transaction including:

@@ -38,7 +38,7 @@ export const FurtherLinks = ({
             const receivedAnyToken = routeReturnInfo.receivedToken.name.includes('any')
             const link = receivedAnyToken
               ? `https://multichain.zendesk.com/hc/en-us/articles/4410379722639`
-              : `https://transferto.xyz/swap?fromChain=${routeReturnInfo?.receivedToken.chainId}&fromToken=${routeReturnInfo?.receivedToken.address}&toChain=${localRoute?.toChainId}&toToken=${localRoute?.toToken.address}`
+              : `https://yutuswap.onrender.com/swap?fromChain=${routeReturnInfo?.receivedToken.chainId}&fromToken=${routeReturnInfo?.receivedToken.address}&toChain=${localRoute?.toChainId}&toToken=${localRoute?.toToken.address}`
             // eslint-disable-next-line security/detect-non-literal-fs-filename
             window.open(link, '_blank')
           }}>

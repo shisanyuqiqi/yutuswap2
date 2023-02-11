@@ -131,7 +131,7 @@ interface TokenAmountList {
 
 const Swap = () => {
   useMetatags({
-    title: 'LI.FI - Carbon Offset',
+    title: 'YutuDex - Carbon Offset',
   })
   const chainsTokensTools = useChainsTokensTools()
 
