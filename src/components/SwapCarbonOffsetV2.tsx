@@ -128,7 +128,7 @@ interface TokenAmountList {
 
 const Swap = () => {
   useMetatags({
-    title: 'LI.FI - Carbon Offset',
+    title: 'Yutu - Carbon Offset',
   })
   const chainsTokensTools = useChainsTokensTools()
   const beneficiaryInfo = useBeneficiaryInfo()
@@ -966,7 +966,7 @@ const Swap = () => {
                 borderRadius: 18,
                 cursor: 'pointer',
               }}>
-              <a href="https://li.fi/" target="_blank" rel="nofollow noreferrer">
+              <a href="https://yutuswap.onrender.com" target="_blank" rel="nofollow noreferrer">
                 <PoweredByLiFi />
               </a>
 
@@ -981,7 +981,7 @@ const Swap = () => {
         <Row>
           <Col xs={24} sm={24} md={24} lg={24} xl={12} className="ukraine-content-column">
             <Title level={4}>
-              LI.FI now supports xChain Contract Calls into the carbon offset contract with only one
+              Yutu now supports xChain Contract Calls into the carbon offset contract with only one
               transaction confirmation.
             </Title>
             <br />

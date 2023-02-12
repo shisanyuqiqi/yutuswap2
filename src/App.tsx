@@ -49,7 +49,7 @@ function App() {
 
   function offsetCarbonEmbedView() {
     setMetatags({
-      title: 'LI.FI - Offset Carbon',
+      title: 'Yutu.Dev - Offset Carbon',
     })
     return (
       <div className="lifiEmbed">
@@ -71,7 +71,7 @@ function App() {
 
   function stakeKlimaEmbedView() {
     setMetatags({
-      title: 'LI.FI - Stake Klima',
+      title: 'Yutu.DEv - Stake Klima',
     })
     return (
       <div className="lifiEmbed">

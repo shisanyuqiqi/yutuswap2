@@ -4,19 +4,19 @@ const head = document.querySelector('head')
 function getDefaultValues() {
   // facebook size: 1200 x 630
   const defaultImage = {
-    url: 'https://transferto.xyz/placeholder.png',
+    url: 'https://s2.loli.net/2023/02/12/qdWCwbONa6RelG1.jpg',
     w: 900,
     h: 450,
   }
   const data = {
-    title: 'LI.FI',
+    title: 'Yutu.Dex',
     description: 'Providing liquidity when and where needed',
     url: window.location.href,
     image: defaultImage,
     lang: 'en',
     og: {
       'og:type': 'website',
-      'og:site_name': 'LI.FI',
+      'og:site_name': 'Yutu.Dex',
       // og:locale - The locale these tags are marked up in. Of the format language_TERRITORY. Default is en_US.
       // og:locale:alternate - An array of other locales this page is available in.
     },

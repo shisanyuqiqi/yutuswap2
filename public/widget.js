@@ -1,9 +1,9 @@
 (function () {
   let config = {
-    host: 'https://transferto.xyz',
+    host: 'https://yutuswap.onrender.com',
     elementId: 'lifi-widget',
     mode: 'drawer', // drawer | inline
-    buttonText: 'Li.Fi Swap',
+    buttonText: 'Yutu Swap',
     options: {
       fromChain: null,
       fromToken: null,

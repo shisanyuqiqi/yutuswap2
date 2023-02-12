@@ -137,7 +137,7 @@ const parseToken = (
 
 const SwapV1 = () => {
   useMetatags({
-    title: 'LI.FI - Swap',
+    title: 'Yutu - Swap',
   })
   useStomt('swap')
   const chainsTokensTools = useChainsTokensTools()

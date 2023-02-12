@@ -227,7 +227,7 @@ const SwappingCarbonOffset = ({
             key={index + '_left'}
             color={color}>
             <h4>
-              YutuDex Contract from {getChainAvatar(getChainById(step.action.fromChainId).key)} to{' '}
+              Yutu Contract from {getChainAvatar(getChainById(step.action.fromChainId).key)} to{' '}
               {getChainAvatar(getChainById(step.action.toChainId).key)} via {getToolAvatar(step)}
             </h4>
             <span>
