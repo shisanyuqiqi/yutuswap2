@@ -98,7 +98,7 @@
 }
 
 .ant-menu-overflow-item {
-  opacity: 1!important;
+  opacity: 1 !important;
   color: rgb(0, 0, 0);
 }
 
@@ -107,7 +107,7 @@
 }
 
 .ant-menu.ant-menu-sub.ant-menu-vertical {
-  background-color: rgb(140,215,254) !important;
+  background-color: rgb(140, 215, 254) !important;
   opacity: 1;
   z-index: 999;
 }
@@ -170,7 +170,7 @@
 .icon-link {
   margin: 0 8px 0 8px;
   font-size: 24px;
-  color: rgb(140,215,254) !important;
+  color: rgb(140, 215, 254) !important;
   display: inline;
 }
 
