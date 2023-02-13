@@ -116,7 +116,7 @@
 }
 
 .lifi__button__content {
-  color: #fff;
+  color: rgb(92, 44, 44);
   background: #000;
   font-size: 18px;
   writing-mode: vertical-rl;
@@ -156,7 +156,7 @@
   left: 10px;
   width: 2px;
   height: 12px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   display: inline-block;
   transition: transform 0.3s;
   /* will-change: transform; */

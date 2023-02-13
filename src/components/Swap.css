@@ -4,12 +4,10 @@
   padding-top: 128px !important;
   padding-bottom: 96px !important;
   min-height: 100vh !important;
-  background: #f5f1f1 !important;
-  background: linear-gradient(180deg, #f5f2f2 0%, rgba(246, 243, 242, 0) 100%) !important;
-  /* background-image: url('../assets/bg/bg-net.svg');
-  background-image: url('../assets/bg/bg-net.svg'),
-    linear-gradient(180deg, #fefaff 9.96%, #fbebff 100%) !important;
+
+  background-image: url('https://s2.loli.net/2023/02/12/AL5FqCSgD3PUyJz.jpg');
+
   background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: bottom !important; */
+  background-repeat: repeat !important;
+  background-position: bottom !important;
 }

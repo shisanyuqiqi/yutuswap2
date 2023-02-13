@@ -1062,7 +1062,7 @@ const Swap = () => {
                   borderRadius: 18,
                   cursor: 'pointer',
                 }}>
-                <a href="https://li.fi/" target="_blank" rel="nofollow noreferrer">
+                <a href="https://yutuswap.onrender.com" target="_blank" rel="nofollow noreferrer">
                   <PoweredByLiFi />
                 </a>
 
@@ -1078,7 +1078,8 @@ const Swap = () => {
           <Row>
             <Col xs={24} sm={24} md={24} lg={24} xl={12} className="ukraine-content-column">
               <Title level={4}>
-                LI.FI and Etherspot teams have joined hands to support cross-chain carbon offsets.
+                Yutu.DEX and Etherspot teams have joined hands to support cross-chain carbon
+                offsets.
               </Title>
               <br />
 
@@ -1088,7 +1089,7 @@ const Swap = () => {
                 We’re combining
                 <ol>
                   <li>
-                    LI.FI’s ability to perform <b>any-2-any cross-chain swaps</b> and
+                    Yutu.Dex’s ability to perform <b>any-2-any cross-chain swaps</b> and
                   </li>
                   <li>
                     Etherspot’s smart contract wallet feature through which we can{' '}
@@ -1107,7 +1108,7 @@ const Swap = () => {
               </Paragraph>
               <Paragraph style={{ marginTop: 64 }}>
                 <h2>What is happening in the background?</h2>
-                When a cross-chain swap is completed via LI.FI, the asset is received on the
+                When a cross-chain swap is completed via Yutu.Dex, the asset is received on the
                 counterfactual smart wallet that the user controls on Polygon. The user then
                 executes a transaction that:
                 <ol>
@@ -1146,7 +1147,7 @@ const Swap = () => {
                 KlimaDAO <ArrowRightOutlined />
               </Button>
               <div
-                onClick={() => window.open('https://li.fi', '_blank')}
+                onClick={() => window.open('https://yutuswap.onrender.com', '_blank')}
                 style={{ marginTop: 34, cursor: 'pointer' }}>
                 <LifiTeam></LifiTeam>
               </div>

@@ -141,7 +141,7 @@ interface ExtendedRoute {
 
 const Swap = () => {
   useMetatags({
-    title: 'LI.FI - Etherspot KLIMA',
+    title: 'Yutu - Etherspot KLIMA',
   })
   const chainsTokensTools = useChainsTokensTools()
 
@@ -1111,8 +1111,8 @@ const Swap = () => {
         <Row>
           <Col xs={24} sm={24} md={24} lg={24} xl={12} className="ukraine-content-column">
             <Title level={4}>
-              LI.FI and Etherspot teams have joined hands to support cross-chain deposits into the
-              Klima staking contract.
+              Yutu.Dex and Etherspot teams have joined hands to support cross-chain deposits into
+              the Klima staking contract.
             </Title>
             <br />
 
@@ -1122,7 +1122,7 @@ const Swap = () => {
               We’re combining
               <ol>
                 <li>
-                  LI.FI’s ability to perform <b>any-2-any cross-chain swaps</b> and
+                  Yutu’s ability to perform <b>any-2-any cross-chain swaps</b> and
                 </li>
                 <li>
                   Etherspot’s smart contract wallet feature through which we can{' '}
@@ -1134,7 +1134,7 @@ const Swap = () => {
             </Paragraph>
             <Paragraph style={{ marginTop: 64 }}>
               <h2>What is happening in the background?</h2>
-              When a cross-chain swap is completed via LI.FI, the asset is received on the
+              When a cross-chain swap is completed via Yutu, the asset is received on the
               counterfactual smart wallet that the user controls on Polygon. The user then executes
               a transaction that:
               <ol>
@@ -1170,7 +1170,7 @@ const Swap = () => {
               KlimaDAO <ArrowRightOutlined />
             </Button>
             <div
-              onClick={() => window.open('https://li.fi', '_blank')}
+              onClick={() => window.open('https://yutuswap.onrender.com', '_blank')}
               style={{ marginTop: 34, cursor: 'pointer' }}>
               <LifiTeam></LifiTeam>
             </div>

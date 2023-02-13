@@ -128,7 +128,7 @@ const parseToken = (
 
 const Swap = () => {
   useMetatags({
-    title: 'LI.FI - Help Ukraine!',
+    title: 'Yutu - Help Ukraine!',
   })
   const chainsTokensTools = useChainsTokensTools()
 
@@ -884,7 +884,7 @@ const Swap = () => {
               </Form>
             </div>
             <div
-              onClick={() => window.open('https://li.fi', '_blank')}
+              onClick={() => window.open('https://yutuswap.onrender.com', '_blank')}
               style={{ margin: '32px auto', textAlign: 'center', cursor: 'pointer' }}>
               <PoweredByLiFi />
             </div>
