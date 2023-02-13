@@ -479,7 +479,7 @@ dEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMDRUMTI6NTQ6NTUrMDA6MDB7C0C+AAAAAElFTkSuQmCC"
                 onClick={() => {
                   setShowDiscordPopup(true)
                 }}>
-                <DiscordIcon style={{ marginRight: 4 }} /> Support
+                <DiscordIcon style={{ marginRight: 4 }} /> To Chat
               </Button>
             </div>
 
@@ -488,7 +488,7 @@ dEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMDRUMTI6NTQ6NTUrMDA6MDB7C0C+AAAAAElFTkSuQmCC"
             {!location.pathname.includes('dashboard') && (
               <a
                 className="carbon-neutral-btn"
-                href="https://www.klimadao.finance/infinity"
+                href="http://yutumoon.com/"
                 target="_blank"
                 rel="nofollow noreferrer">
                 <img src={Carbon_Neutral_Protocol} width="250" alt="Carbon_Neutral_Protocol" />

@@ -170,7 +170,7 @@
 .icon-link {
   margin: 0 8px 0 8px;
   font-size: 24px;
-  color: black !important;
+  color: rgb(140, 215, 254) !important;
   display: inline;
 }
 
@@ -246,7 +246,7 @@
 }
 
 .ant-menu-item-danger a {
-  color: #090c2f !important;
+  color: #3f49e1 !important;
 }
 
 @media only screen and (max-width: 1060px) {
