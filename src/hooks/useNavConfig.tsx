@@ -29,7 +29,7 @@ export const useNavConfig = () => {
       { label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard' },
       {
         label: (
-          <a href="https:yutumoon.com" target="_blank" rel="nofollow noreferrer">
+          <a href="http://yutumoon.com/" target="_blank" rel="nofollow noreferrer">
             Official Website
           </a>
         ),

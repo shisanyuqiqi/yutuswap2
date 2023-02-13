@@ -1,4 +1,7 @@
 import { ChainId, ChainKey, CoinKey, findDefaultToken, Token } from '@lifi/sdk'
+import { useFeaturedTokens } from '@lifi/widget/hooks'
+import { TokenList } from 'etherspot'
+import { features } from 'process'
 
 export const defaultTokens: { [ChainKey: string]: Array<Token> } = {
   [ChainKey.ETH]: [
@@ -50,6 +53,16 @@ export const defaultTokens: { [ChainKey: string]: Array<Token> } = {
 
     // Partners
     // > METIS: https://bscscan.com/token/0xe552fb52a4f19e44ef5a967632dbc320b0820639
+
+    {
+      address: '0xab0c06125549e6c57636850ca26019b06326b0ba',
+      chainId: ChainId.BSC,
+      decimals: 18,
+      logoURI: 'https://s2.loli.net/2023/02/13/qBKtp6u3wch7vOT.png',
+      name: 'Yutu Token',
+      symbol: 'Yutu',
+    },
+
     {
       address: '0xe552fb52a4f19e44ef5a967632dbc320b0820639',
       chainId: ChainId.BSC,

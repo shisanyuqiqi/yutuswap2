@@ -62,6 +62,20 @@ export const Swap = () => {
         borderRadius: '16px',
         boxShadow: '0px 8px 32px rgba(0, 0, 0, 0.08)',
       },
+      theme: {
+        palette: {
+          primary: { main: '#e8cefe' },
+          secondary: { main: '#F5B5FF' },
+        },
+        shape: {
+          borderRadius: 16,
+          borderRadiusSecondary: 16,
+        },
+        typography: {
+          fontFamily: 'Comic Sans MS',
+        },
+      },
+
       variant: 'expandable',
       disableI18n: true,
       // buildSwapUrl: true,
